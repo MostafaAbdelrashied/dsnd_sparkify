@@ -8,3 +8,14 @@ One of the most important metrics for subscription based services is member chur
 
 ## Contents
 * DSND Sparkify.ipynb - Jupyter notebook employing pyspark to perform exploratory data analysis, metric definition, feature engineering, modeling, and model evaluation on the Sparkify data set.
+
+## References
+Barranka. “PySpark: Get Threshold (Cuttoff) Values for Each Point in ROC Curve.” Stack Overflow, 1 July 1969, stackoverflow.com/questions/54425084/pyspark-get-threshold-cuttoff-values-for-each-point-in-roc-curve.
+
+“Gradient Boosting.” Wikipedia, Wikimedia Foundation, 30 May 2019, en.wikipedia.org/wiki/Gradient_boosting.
+
+Patel, Neil. “How to Improve Your Subscription Based Business by Predicting Churn.” Neil Patel, 24 May 2019, neilpatel.com/blog/improve-by-predicting-churn/.
+
+Safdari, Nasir. “Build an End-to-End Machine Learning Model with MLlib in PySpark.” Medium, Towards Data Science, 13 Feb. 2019, towardsdatascience.com/build-an-end-to-end-machine-learning-model-with-mllib-in-pyspark-4917bdf289c5.
+
+Tausend, F. “Hands-on: Predict Customer Churn.” Medium, Towards Data Science, 1 June 2019, towardsdatascience.com/hands-on-predict-customer-churn-5c2a42806266.
