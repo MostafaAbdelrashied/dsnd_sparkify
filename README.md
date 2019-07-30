@@ -10,7 +10,9 @@ One of the most important metrics for subscription based services is member chur
 
 ## Findings
 
-We are able to generate a highly predictable model using a time-series based definition of churn and structuring our data accordingly.  Rolling windows on pertinent page actions allow us to identify short-term trends that might be predictive of churn.  Due to the highly skewed nature of the target variable, utilizing an ensemble-based classifier such as gradient boost may yield the best results.  We can use a parameter grid and cross validation to find the ideal hyper-parameters for our problem.  Lastly, tuning our model to emphasize positive predictive value allows us to derive the most utility from its output.  In the case of churn, false negatives have a significantly higher cost than false positives.  Emphasizing recall (true-positive rate) as a metric allows us to minimize the the number of users to whom we failed to predict a churn.
+We are able to generate a highly predictable model using a time-series based definition of churn and structuring our data accordingly.  Rolling windows on pertinent page actions allow us to identify short-term trends that might be predictive of churn.  Due to the highly skewed nature of the target variable, utilizing an ensemble-based classifier such as gradient boost may yield the best results.  We can use a parameter grid and cross validation to find the ideal hyper-parameters for our problem.  
+
+Tuning our model to emphasize positive predictive value allows us to derive the most utility from its output.  In the case of churn, false negatives have a significantly higher cost than false positives.  Emphasizing recall (true-positive rate) as a metric allows us to minimize the the number of users to whom we failed to predict a churn.
 
 ## Tools Used
 - [IBM Watson Studio](https://dataplatform.cloud.ibm.com/home?context=wdp)
