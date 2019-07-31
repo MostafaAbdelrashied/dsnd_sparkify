@@ -14,6 +14,12 @@ We are able to generate a highly predictable model using a time-series based def
 
 Tuning our model to emphasize positive predictive value allows us to derive the most utility from its output.  In the case of churn, false negatives have a significantly higher cost than false positives.  Emphasizing recall (true-positive rate) as a metric allows us to minimize the the number of users to whom we failed to predict a churn.
 
+## Refinements and Next Steps
+
+Spark Streaming — Incorporating our model into a spark streaming application will allow almost instantaneous predictions (and interventions), rather than having to wait for an overnight batch process or similar.
+
+Additional feature engineering — We ignored many of the features in our initial version. Are users more likely to churn when they log in via desktop versus mobile? Is there predictive value in the average length of a given user’s session? More time could be spent here to develop a more robust feature set.
+
 ## Tools Used
 - [IBM Watson Studio](https://dataplatform.cloud.ibm.com/home?context=wdp)
 - Apache Spark / Spark MLlib
